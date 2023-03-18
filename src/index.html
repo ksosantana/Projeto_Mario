@@ -1,22 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+   
     <title>Prpjeto-Maario</title>
 </head>
 <body>
+    <div>
+        <video class="video" autoplay loop muted>
+            <source src="video/video-mario.mp4"> 
+        </video>
+    </div>
     <header class="cabecalho">
         <a > 
-            <img class="logo" src="./imagens/logo-chapeu-mario.png">
+            <img class="logo" src="./imagens/logo-chapeu-mario.png" type="video/mp4">
         </a> 
-        <nav class="menu"></nav>
+        <nav> <ul class="menu">
+        <li>Home</li>
+        <li>Detalhes</li>
+        </ul>
+        </nav>
+       
     </header>
     <main class="container">
-        <div class="informacoes"></div> 
-        <img class="imagem-mario">
-        <div> ooooooooi</div>
+        <div class="informacoes">
+            <img class="titulo-do-flime" src="imagens/titulo.png" alt="imagem do titulo do filme">
+            <p  class="descricao"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat voluptate iure nemo earum 
+                soluta mollitia? Facere, recusandae earum saepe praesentium dolores tempora perspiciatis nostrum
+                 amet consequatur nulla quos eveniet similique!</p>
+            <button class="botao-trailer">Veja o trailer</button>
+        </div> 
+        <img class="mario" src="imagens/super-mario-chars.png"> 
     </main>
 </body>
 </html>
