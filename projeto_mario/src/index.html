@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="css/responsivo.css">
+
+   
+    <title>Projeto Mario - O Filme</title>
+</head>
+<body>
+     <div class="video-fundo"> 
+        <video class="video" autoplay loop muted>
+            <source src="video/video-mario.mp4"> 
+        </video>
+    </div>
+    <header class="cabecalho">
+        <a > 
+            <img class="logo" src="./imagens/logo-chapeu-mario.png" type="video/mp4">
+        </a> 
+        <nav> <ul class="menu">
+        <li> <a href="#">Home</a></li>
+        <li> <a href="#"> Detalhes</a></li>
+        </ul>
+        </nav>
+       
+    </header>
+    <main class="container">
+        <div class="informacoes">
+            <img class="titulo-do-filme" src="imagens/titulo.png" alt="imagem do titulo do filme">
+            <p  class="descricao"   >
+            Mario é um encanador junto com seu irmão
+            luigi.Um dia, um dia eles vão parar no 
+            reino dos cocumelos, governado pela princesa 
+            Peach, mas ameaçado pelo rei dos koopas, que 
+            faz de tudo para conseguir reinar em todos os
+            lugares
+            </p>
+
+            <button class="botao-trailer">Veja o trailer</button> 
+        </div> 
+        <img class="mario" src="imagens/super-mario-chars.png"> 
+        <div class="modal "> 
+         <div class="conteudo-modal">
+            <span class="fechar-modal">X</span>
+            <iframe id=video width="560" height="315" src="https://www.youtube.com/embed/cDNkh5WybZo" title="Super Mario Bros. - O Filme | Trailer Dublado" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </div>
+        </div>
+    </main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
