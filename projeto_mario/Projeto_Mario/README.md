@@ -1,2 +1,3 @@
 # Projeto_Mario
-criação de site do mario
+minha criação com a ajuda dos imão dev 
+com a aplicação do trailer do filme do mario. 
