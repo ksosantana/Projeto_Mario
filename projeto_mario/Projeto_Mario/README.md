@@ -1,3 +1,4 @@
 # Projeto_Mario
-minha criação com a ajuda dos imão dev 
-com a aplicação do trailer do filme do mario. 
+<br>
+minha criação com a ajuda dos imão dev <br>
+com a aplicação do trailer do filme do mario. <br>
